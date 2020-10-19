@@ -7,7 +7,7 @@ import xml.sax
 # Ahora creamos nuestro manejador de eventos, que será un clase con sus distintos métodos. Usamos la función ContentHandler
 
 class ManejadorEventosCatalogo(xml.sax.ContentHandler):
-    # Definimos los atributos propios
+# Definimos los atributos propios
     def __init__(self):
         self.title = ""
         self.link = ""
